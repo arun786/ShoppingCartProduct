@@ -1,0 +1,21 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: Arun
+      changes:
+        - insert:
+            tableName: product
+            columns:
+              - column:
+                  name: name
+                  value: "Jeans"
+              - column:
+                  name: description
+                  value: "Jeans for young"
+              - column:
+                  name: companyId
+                  value: 1
+              - column:
+                  name: type
+                  value: "straight fit"
+
